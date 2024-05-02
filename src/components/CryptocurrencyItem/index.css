@@ -1,0 +1,17 @@
+.each-item {
+  list-style-type: none;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  margin-right: 7px;
+}
+
+.column {
+  margin-right: 60px;
+  text-align: left;
+}

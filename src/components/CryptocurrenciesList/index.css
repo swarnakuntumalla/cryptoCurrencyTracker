@@ -1,0 +1,33 @@
+.crypto-currencies-list {
+  color: #ffffff;
+  width: 370px;
+  height: 320px;
+  border: 4px #00e7ff solid;
+  border-radius: 7px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.column-name {
+  padding-right: 40px;
+}
+
+.table-name-list {
+  font-size: 25px;
+  font-weight: bold;
+  justify-content: space-between;
+  height: 75px;
+  background-color: #00e7ff33;
+  padding: 0px 30px 0px 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .crypto-currencies-list {
+    width: 70vw;
+  }
+  .column-name {
+    margin-right: 30px;
+  }
+}

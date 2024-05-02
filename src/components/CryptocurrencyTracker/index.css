@@ -1,0 +1,27 @@
+.crypto-currency-tracker-app {
+  min-height: 100vh;
+  background-color: #000000;
+  padding: 20px;
+}
+.display-properties {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #00e7ff;
+}
+
+.cryptocurrency-img {
+  width: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  .cryptocurrency-img {
+    width: 700px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+}
